@@ -1,0 +1,56 @@
+.productpageimage{
+   width:max-content;
+   height: max-content;
+   text-align: center;
+   margin: 5vh 0px ;
+   width:50vw;
+}
+
+.ppimg{
+    padding:10px;
+    width: 50%;
+    height: 280px;
+    box-shadow: 2px 2px 2px 2px black;
+}
+.truckbox{
+    border: 3px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    background-color:brown;
+    color: white;
+    width: 50%;
+    text-align: center;
+    margin-left: 27%;
+    border-radius: 30px;
+    padding: 5px;
+    margin-top: 20px;
+}
+.row{
+    height: 80vh;
+    width:100vw;
+    overflow: hidden;   
+}
+.ppleft{
+    display: block;
+    width: 50%;
+    position: fixed;
+
+}
+.ppright{
+    margin-left: auto;
+    margin-right: 100px;
+    display: block;
+    width: 40%;
+}
+.p{
+   /* white-space: nowrap;
+   overflow:auto; */
+   white-space: nowrap; 
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+
+}

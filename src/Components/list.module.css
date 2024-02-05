@@ -1,0 +1,9 @@
+.col{
+    height: 100px !important;
+}
+div.row{
+    height: 150px;
+}
+.row{
+text-align: center;
+}

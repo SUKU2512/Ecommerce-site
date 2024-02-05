@@ -1,0 +1,56 @@
+.prodprice{
+    display: flex;
+    margin: 10px 20px;
+    justify-content: space-between;
+}
+.prodtitle{
+    white-space: nowrap; 
+    width: 70%;
+    margin: auto; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+.hheart{
+    font-size: 28px;
+    cursor: pointer;
+    fill: none;
+    
+    margin-top: auto;
+}
+.products1{
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:30px;
+    margin-top: 20px;
+}
+.hbody{
+    width: 250px;
+    height: 350px;
+    box-shadow: 2px 5px 5px 2px black;
+}
+.himg{
+    margin-top: 20px;
+    margin: 20px 60px;
+    margin-bottom: 40px;
+    width:50%;
+    height: 140px;
+}
+.hbtn{
+    border:0px;
+    width: 70%;
+    border-radius: 0;
+    background-color: brown;
+    color: white;
+    margin: auto;
+}
+.btndiv{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+p{
+    text-align: justify;
+}
